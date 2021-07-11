@@ -1,8 +1,433 @@
-<html>
-    <head>
-        <title>SBS Star Electronics</title>
-    </head>
-    <body id="jira" class="aui-layout aui-style-default page-type-message"  data-version="1001.0.0-SNAPSHOT" >
-        <div>In development</div>
-    </body>
+<!doctype html>
+<html lang="en">
+<head>
+    <title>SBS Star Electronics</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous"  />
+   <style>
+	   * {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4s;
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+	   html {
+  scroll-behavior: smooth;
+     }
+	   *{
+	       margin:0;
+	      padding:0;
+		   font-family:'josefin Sans',sans-sarif;
+	   }
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+ #CONTACT
+       {position: relative
+       }
+       .fa_icons{
+	   width: 500px;
+    	height: 100px;
+	   border-radius: 50%;
+	   display: inline;
+       justify-content: center;
+	   align-items: center;
+       position: relative;
+	   }   
+       
+	   #slider4 {
+  position: relative;
+  text-align: center;
+  color: black;
+                }
+	   
+	   .left {
+             position: absolute;
+             top: 40%;
+             left: 50%;
+             transform: translate(-50%, -50%);
+             }
+  </style>
+</head>
+
+<body>
+	<header>
+		
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	  <img class="card-img-top img-fluid text-center ml-3" src="https://drive.google.com/thumbnail?id=1QP424MRMRzH8wrBZ6uh9mvQT9A8yv6_m" style="width: 10%;height: 90px" alt="Card image">
+  <a class="navbar-brand ml-2" href="#">SBS Star Electronics</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse mr-5" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto mr-2">
+      <li class="nav-item active mr-1">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item mr-1">
+        <a class="nav-link" href="#About">About</a>
+      </li>
+		<li class="nav-item mr-3">
+        <a class="nav-link " href="#Gallery">Gallery</a>
+      </li>
+		<li class="nav-item mr-3">
+        <a class="nav-link " href="#contact_us">Contact US</a>
+      </li>
+      <li class="nav-item dropdown mr-1">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Social
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Facebook</a>
+          <a class="dropdown-item" href="#">Instagram</a>
+          <a class="dropdown-item" href="#"> Twitter</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>	
+     
+     <!-- Jumbotron -->
+<div
+  class="bg-image p-5 text-center shadow-1-strong rounded mb-0 text-white"
+  style="background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/003.jpg');"
+>
+  <h1 class="mb-1 h2">SBS Star Electronics</h1>
+
+  <p>
+   Home Appliances manufacturing company with best gurantee and warranty period.<br>Led Tv , Cooler, AC , Vaccum Cleaner,Washing Machine ,Led Tubelight etc.
+  </p>
+</div>
+<!-- Jumbotron -->
+		<div class="bg-image hover-zoom">
+<h2 class="text-center mt-2 mb-2">Appliances</h2><hr class="w-50 mx-auto pt-2"></hr>
+
+<div class="slideshow-container text-center "> 
+	<div class="mySlides fade"><div class="row text-center pb-5">
+			 <div class="col-lg-4 col-md-4 col-12 hover-overlay hover-zoom hover-shadow ripple">
+				 <div class="card bg-image hover-overlay hover-zoom hover-shadow ripple" >
+				  <img class="card-img-top img-fluid text-center hover-zoom hover-shadow" src="https://drive.google.com/thumbnail?id=1x1N2iOh-ckO2xB357DeTdqiK12qnKdgO" style="width: 100%;height: 215px"alt="Card image">
+				  <div class="card-body">
+					<h4 class="card-title">LED TV</h4>
+					
+				  </div></div></div>
+				 <div class="col-lg-4 col-md-4 col-12">
+					 <div class="card" >
+				  <img class="card-img-top img-fluid" src="https://drive.google.com/thumbnail?id=1lN6yDd5BoxnQPf4v7u5qX8BVT1wU4FXw" style="width: 100%;height: 215px" alt="Cooler">
+				  <div class="card-body">
+					<h4 class="card-title">COOLER</h4>
+				  </div></div></div>
+							  <div class="col-lg-4 col-md-4 col-12">
+								<div class="card" >
+							  <img class="card-img-top img-fluid" src="https://drive.google.com/thumbnail?id=1ut8-tl4OE8ENfnMaO1EVIOIolDVtVQ_h" style="height: 202px" alt="Card image">
+							  <div class="card-body">
+								<h4 class="card-title">AC</h4>
+							  </div></div></div>
+		</div></div>
+	
+<div class="mySlides fade"><div class="row text-center pb-5">
+			 <div class="col-lg-4 col-md-4 col-12">
+				 <div class="card" >
+				              <img class="card-img-top img-fluid" src="https://drive.google.com/thumbnail?id=1-DQmX7A1BwvkjgSPSw9PQHc6V4m1OHT6" style="height: 222px" alt="Card image">
+				  <div class="card-body">
+					<h4 class="card-title">WASHING MACHINE</h4>
+					
+				  </div></div></div>
+				 <div class="col-lg-4 col-md-4 col-12">
+					 <div class="card" >
+				  <img class="card-img-top img-fluid" src="https://drive.google.com/thumbnail?id=1Lw2gDeoqGa7P1y5-BOTrANaWts-AGW9y" style="height: 222px" alt="Card image">
+				  <div class="card-body">
+					<h4 class="card-title">LED TUBE LIGHT</h4>
+				  </div></div></div>
+							  <div class="col-lg-4 col-md-4 col-12">
+								<div class="card" >
+							  <img class="card-img-top img-fluid" src="https://drive.google.com/thumbnail?id=1FjaBttOn6nevLtTCwFowCFy2AzePW1RQ" style="height: 222px" alt="Card image">
+							  <div class="card-body">
+								<h4 class="card-title">Vaccum Cleaner</h4>
+							  </div></div></div>
+		</div></div>
+
+                          <div class="mySlides fade">
+	<div class="row text-center pb-5">
+			 <div class="col-lg-4 col-md-4 col-12">
+				 <div class="card" >
+				  <img class="card-img-top img-fluid" src="https://drive.google.com/thumbnail?id=1H3RceViWzLEGB_sV_fKcB2SEvv-pnQF8" style="height: 228px" alt="Card image">
+				  <div class="card-body">
+					<h4 class="card-title">Refrigerator</h4>
+				  </div></div></div>
+		</div></div>
+</div></div>
+<br>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>	
+
+   </header>
+		<section class="bg-secondary" id="About">
+			<div class="container-fluid ">
+				<h1 class="text-center text-capitalize pt-4">ABOUT US</h1>
+				<hr class="w-50 mx-auto pt-2"></hr>
+			  <div class="row mb-3 ml-1">
+				  <div class="col-lg-6 col-md-6 col-12">
+				     <img  src="https://drive.google.com/thumbnail?id=1SqENnq-kVS0vJqTo3VFlZL75SHA3UY_H" class="img-fluid mb-4" style="width: 80% ;height: 400px" alt="Card image">
+				  </div>
+				<div class="col-lg-6 col-md-6 col-12">
+				    <h1>Who am I ?</h1>
+					<p>SBS Star Electrons is a small scale industry and a manufacturing company headquartered in Dehradhun,India. SSB star Electronics was founded on 2016.SSB Star manufacturers all type of Home Appliances AC , led tv , Washing machine .</p>
+                </div>
+			</div>
+			</div>
+		</section>
+<!-- services part-->
+
+	<section>
+	<div class="container ">
+				<h1 class="text-center text-capitalize pt-5">Services</h1>
+	          	<hr class="w-25 mx-auto pt-4"></hr>
+	     <div class="row mb-4 mt-2">
+        <h3 class="pl-2"> INSTALLATION </h3>
+<p class="mt-2"> Professional installation is available for your appliance purchase. Our trained installers will completely install your new appliance, run test cycles and have you up and running in no time. From basic hook up to more extensive built in model installations you can rely on SBS star electronics. Your satisfaction is our goal.</p>
+               </div>
+		 <div class="row mb-4 mt-2">
+        <h3 class="pl-2"> SERVICE </h3>
+<p class="mt-2">Our own factory-trained technicians help keep your Fullerton purchase running in top shape. We service what we sell! Call today to schedule an appointment for appliance repairs.</p> </div>
+		 <div class="row text-center pb-5">
+			 <div class="col-lg-4 col-md-4 col-12">
+				 <div class="card" >
+				  <img class="card-img-top img-fluid" src="https://deltronelectronics.com/wp-content/uploads/2017/08/slide3.jpg" alt="Card image">
+				  <div class="card-body">
+					<h4 class="card-title">John Doe</h4>
+					
+				
+		</div>
+		</div>
+	</section>
+	<section class="bg-dark">
+		<article class="py-1 text-center text-white pt-4">
+			<div>
+				<h3 class="display-4 text-white">9812715822</h3>
+			<p>Best Services Area</p>
+			</div>
+			</article>
+</section>	
+	
+	<section id="Gallery">
+	<div class="container ">
+				<h1 class="text-center text-capitalize pt-5">GALLERY</h1>
+	          	<hr class="w-25 mx-auto pt-4"></hr>
+	
+		<div class="row text-center">
+			 <div class="col-lg-4 col-md-4 col-12 mb-4">
+			<img class="img-fluid" src="https://drive.google.com/thumbnail?id=1x1N2iOh-ckO2xB357DeTdqiK12qnKdgO" style="height: 215px" alt="Card image"><div class="card-body">
+								<h4 class="card-title">Led TV</h4>
+							  </div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-12 mb-4">
+			<img class="img-fluid" src="https://drive.google.com/thumbnail?id=1lN6yDd5BoxnQPf4v7u5qX8BVT1wU4FXw" style="height: 215px" alt="Card image"><div class="card-body">
+								<h4 class="card-title">Cooler</h4>
+							  </div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-12 mb-4">
+			<img class="img-fluid" src="https://drive.google.com/thumbnail?id=1ut8-tl4OE8ENfnMaO1EVIOIolDVtVQ_h" style="height: 202px" alt="Card image"><div class="card-body">
+								<h4 class="card-title">AC</h4>
+							  </div>
+			</div>
+         <div class="col-lg-4 col-md-4 col-12 mb-4  mt-2">
+			<img class="img-fluid mt-2" src="https://drive.google.com/thumbnail?id=1-DQmX7A1BwvkjgSPSw9PQHc6V4m1OHT6" style="height: 222px" alt="Card image"><div class="card-body">
+								<h4 class="card-title">Washing Machine</h4>
+							  </div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-12 mb-4  mt-4">
+			<img class="img-fluid mt-2" src="https://drive.google.com/thumbnail?id=1Lw2gDeoqGa7P1y5-BOTrANaWts-AGW9y" style="height: 222px" alt="Card image"><div class="card-body">
+								<h4 class="card-title">Led Tubelight</h4>
+							  </div>
+			</div>
+		
+		</div>	
+	</div>
+	</section>
+		<section id="CONTACT_US" >
+	
+	<div class="container mb-4" id="contact_us">
+				<h1 class="text-center text-capitalize pt-5">CONTACT US</h1>
+				<hr class="w-25 mx-auto pt-4"></hr>
+		
+	
+	<div class="w-30 mx-auto pb-4" id="CONTACT">
+        <div class="social_network mb-4 " >
+		<div class="fa_icons mr-3">
+			<a href="https://www.w3schools.com/bootstrap4/bootstrap_forms.asp" target="_blank" >
+				<i class="fa fa-facebook" aria-hidden="true"></i></a>
+				</div>
+  <div class="fa_icons mr-3">
+			<a href="#"  target="_blank" >
+			<i class="fa fa-twitter" aria-hidden="true"></i></a>
+				</div>
+	  <div class="fa_icons mr-3">
+			<a href="#"  target="_blank"  >
+				<i class="fa fa-instagram" aria-hidden="true"></i></a>
+				</div>
+			</div>	
+					<form method="post" action="https://formspree.io/f/xpzklojo" id="my-form">
+						<div class="form-group">
+					<label for="Name">Name:</label>
+					<input type="text" class="form-control"   placeholder="Enter Name" id="Name" name="Name">
+				  </div>
+				  <div class="form-group">
+					<label for="email">Email address:</label>
+					<input type="email" class="form-control" placeholder="Enter email" id="email" name="email" autocomplete="off">
+				  </div>
+				 <div class="form-group">
+					<label for="Mobile">Mobile:</label>
+					<input type="text" class="form-control"  placeholder="Enter mobile No," id="Mobile" name="Mobile">
+				  </div>
+						<div class="form-group">
+					<label for="CompanyN">Company Name And Address</label>
+					<textarea class="form-control" id="CompanyN" name="CompanyN" ></textarea>
+				  </div>
+				  <div class="form-group form-check">
+					<label for="Remem" class="form-check-label">
+					  <input class="form-check-input" type="checkbox" id="Remem" name="Remem"> Remember me
+					</label>
+				  </div>
+				  <button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+</div>
+	</div>
+        <div id="status"></div>
+	</section>
+<section class="text-center bg-dark mb-3 mt-3">
+            <div class="container">
+                <div class="row"><div class="col-lg-4 col-md-4 col-12 mt-4">
+				     <div class="fa_ico  mr-0" style="font-size: 24px; ">
+			<a href="#"  target="_blank" >
+			<i class="fa  fa-map-marker fa-5x"  saria-hidden="true"></i></a>
+				</div>
+					
+                </div>
+<div class="col-lg-4 col-md-4 col-12 pb-5 pt-3 text-light pl-0"> <h4 class="text-light pt-3">Our address </h4>
+SBS Star Electronics.<br />
+City:-Selaqui Dist:-Dehradhun Pincode:248197 Uttarakhand (India)<br />
+Phone: 91-9812715822, <br/>
+Email us : <a href="sbsstarelectronics@gmail.com">sbsstarelectronics@gmail.com</a>
+</div>
+		</div>	</div></div></section>
+<footer>
+	<p class="text-center bg-dark text-white"> @copyright Electrical applicants.com 2021 </p>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
+  }
+     var form = document.getElementById("my-form");
+    
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        status.innerHTML = "Thanks for your submission!";
+        form.reset()
+      }).catch(error => {
+        status.innerHTML = "Oops! There was a problem submitting your form"
+      });
+    }
+    form.addEventListener("submit", handleSubmit)
+    
+</script>
+</body>
 </html>
